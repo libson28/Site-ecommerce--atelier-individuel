@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>categorie_accessoire</title>
+    <!-----------------------lien fichier css--------------------->
+    <link rel="stylesheet" href="categorie_accessoire.css">
+    <!-----------------------lien bootstrap css--------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-----------------------lien bootstrap icons--------------------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body class="bg-light">
+    <span id="retour"></span>
+
+    <!----------------- debut header ---------------->
+
+    <header>
+        <div class="header-first">
+            <i class="bi bi-list" id="menu-door"></i>
+            <a href="../index.html">
+
+                <img src="../images/logo.png" alt="">
+            </a>
+            <i class="bi bi-cart-check-fill"></i>
+        </div>
+    </header>
+    <!----------------- debut header ---------------->
+    <div class="separation"></div>
+    <a href="#retour" id="back-top"><i class="bi bi-arrow-up-square"></i></a>
+
+    <!---------debut menu menant vers d'autres pages----------->
+
+    <div class="side-menu" id="side-menu">
+        <div class="side-links">
+            <a href="../index.html"><i class="bi bi-houses"></i> Accueil</a>
+            <a href="../prod/prod.html"><i class="bi bi-gift"></i> Produit</a>
+            <a href="categorie_accessoire.html"><i class="bi bi-tags-fill"></i> Catégories et Accessoires</a>
+            <a href="../about/about.html"><i class="bi bi-file-earmark-person"></i> A propos</a>
+            <a href="../page_blog/blog.html"><i class="bi bi-substack"></i> Blog</a>
+            <a href=""><i class="bi bi-person-lines-fill"></i> Contact</a>
+        </div>
+    </div>
+    <!---------fin menu----------->
+
+
+    <div class="banner">
+        <div class="banner-text">
+            <h2>Product List View</h2>
+            <div class="loader"></div>
+            <div class="banner-retour">
+
+                <a href="../index.html">Home</a> <span>/ Shop</span>
+            </div>
+        </div>
+    </div>
+
+    <!---------------------------- DEBUT CATEGORIE------------------------------ -->
+
+    <div class="categorie">
+        <div class="d-flex justify-content-between categorie-items">
+            <div class="items-g d-flex flex-column gap-lg-5">
+                <div class="rechercher d-flex justify-content-between align-items-center px-3">
+                    <input type="text" name="" id="" class="w-75 bg-transparent border-0" placeholder="Search here...">
+                    <i class="bi bi-search text-secondary"></i>
+                </div>
+                <!---------first section----------->
+                <div class="card rounded-0">
+                    <div class="card-header ">
+                        CATEGORIES
+                    </div>
+                    <div class="card-body d-flex flex-column">
+
+                        <span>Chair</span>
+                        <span>Furniture</span>
+                        <div class="d-flex flex-column px-4 fw-light text-secondary">
+                            <span>Men Bag</span>
+                            <span>Shoes</span>
+                            <span>Watch</span>
+                            <span>T-shirt</span>
+                            <span>Shirt</span>
+                        </div>
+                        <span>Accessoires</span>
+                        <span>Top Brand</span>
+                        <span>Jewelery</span>
+
+                    </div>
+                </div>
+                <!---------end first bloc----------->
+
+                <!---------second bloc----------->
+                <div class="card rounded-0">
+                    <div class="card-header ">
+                        PRICE
+                    </div>
+                    <div class="card-body d-flex flex-column">
+
+                        <span>You range : <span class="text-secondary">$50 - $999</span></span>
+                        <input type="range" class="form-range" id="customRange1">
+
+                    </div>
+                </div>
+                <!---------end second bloc----------->
+
+                <!---------third bloc----------->
+                <div class="card rounded-0">
+                    <div class="card-header ">
+                        COLOR
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <div class="d-flex justify-content-between">
+                            <div class="d-flex flex-column">
+
+                                <span><i class="bi bi-square-fill" style="color: #FE5858;"></i> LightSalmon</span>
+                                <span><i class="bi bi-square-fill" style="color: #E9967A;"></i> DarkSalmon</span>
+                                <span><i class="bi bi-square-fill" style="color: #FE5858;"></i> Tomato</span>
+                                <span><i class="bi bi-square-fill" style="color: #00B2EE;"></i> Deep Sky Blue</span>
+                                <span><i class="bi bi-square-fill" style="color: #00EEB3;"></i> Electric Purple</span>
+                                <span><i class="bi bi-square-fill" style="color: #8DC63F;"></i> Atlantis</span>
+                                <span><i class="bi bi-square-fill" style="color: #C38B4B;"></i> Deep Lilac</span>
+                            </div>
+                            <div class="d-flex flex-column">
+
+                                <span>12</span>
+                                <span>20</span>
+                                <span>59</span>
+                                <span>45</span>
+                                <span>78</span>
+                                <span>10</span>
+                                <span>15</span>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <!---------end third bloc----------->
+
+                <!---------fourth bloc----------->
+                <div class="card rounded-0">
+                    <div class="card-header ">
+                        SIZE
+                    </div>
+                    <div class="card-body size d-flex justify-content-evenly">
+                        <span>M</span>
+                        <span>S</span>
+                        <span>L</span>
+                        <span>SL</span>
+                        <span>XL</span>
+                    </div>
+                </div>
+                <div class="card rounded-0 p-3">
+                    <img src="../images/banner/5.jpg" alt="">
+                </div>
+
+            </div>
+            <!---------end fourth bloc----------->
+
+
+            <div class="items-d d-flex flex-column gap-lg-4 " id="items-d-grid">
+                <div class="trie d-flex justify-content-between pt-2 px-3">
+                    <div class=" d-flex justify-content-evenly">
+                        <i class="bi bi-grid-3x2-gap-fill text-danger" id="grid-door"></i>
+                        <i class="bi bi-list-ul mx-4" id="list-door"></i>
+
+                    </div>
+                    <span>Showing 01-09 of 17 Results</span>
+                </div>
+
+                <div class="featured w-100">
+                    <div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
+
+                        <div class="col-lg-4">
+
+                            <div class="card border-0 p-4" id="card">
+                                <div class="card-status">
+                                    <span class="badge text-bg-warning text-white">New</span>
+                                    <span class="text-danger"> $56.20</span>
+                                </div>
+                                <img src="../images/product/1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="text-center fw-bolder">
+                                        <span>
+                                            DUMMY PRODUCT NAME</span>
+
+                                    </div>
+                                    <div class="text-center text-danger">
+
+                                        <span><i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                            <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                            <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                            <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                            <i class="bi bi-star-half" style="color: #ffb300;"></i></span>
+                                    </div>
+                                    <div class="d-flex justify-content-between bg-body-secondary p-2">
+                                        <i class="bi bi-heart"></i> |
+                                        <i class="bi bi-search"></i>|
+                                        <i class="bi bi-arrow-clockwise"></i>|<i class="bi bi-cart-plus"></i>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card border-0 p-4" id="card">
+                                <div class="card-status">
+                                    <span class="badge text-bg-warning text-white">New</span>
+                                    <span class="text-danger"> $56.20</span>
+                                </div>
+                                <img src="../images/product/2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="text-center fw-bolder">
+                                        <span>
+                                            DUMMY PRODUCT NAME</span>
+
+                                    </div>
+                                    <div class="text-center text-danger">
+
+                                        <span><i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                            <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                            <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                            <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                            <i class="bi bi-star-half" style="color: #ffb300;"></i></span>
+                                    </div>
+                                    <div class="d-flex justify-content-between bg-body-secondary p-2">
+                                        <i class="bi bi-heart"></i> |
+                                        <i class="bi bi-search"></i>|
+                                        <i class="bi bi-arrow-clockwise"></i>|<i class="bi bi-cart-plus"></i>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card border-0 p-4" id="card">
+                                <div class="card-status">
+                                    <span class="badge text-bg-warning text-white">New</span>
+                                    <span class="text-danger"> $56.20</span>
+                                </div>
+                                <img src="../images/product/3.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="text-center fw-bolder">
+                                        <span>
+                                            DUMMY PRODUCT NAME</span>
+
+                                    </div>
+                                    <div class="text-center text-danger">
+
+                                        <span><i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                            <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                            <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                            <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                            <i class="bi bi-star-half" style="color: #ffb300;"></i></span>
+                                    </div>
+                                    <div class="d-flex justify-content-between bg-body-secondary p-2">
+                                        <i class="bi bi-heart"></i> |
+                                        <i class="bi bi-search"></i>|
+                                        <i class="bi bi-arrow-clockwise"></i>|<i class="bi bi-cart-plus"></i>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card border-0 p-4" id="card">
+                                <div class="card-status">
+                                    <span class="badge text-bg-warning text-white">New</span>
+                                    <span class="text-danger"> $56.20</span>
+                                </div>
+                                <img src="../images/product/4.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="text-center fw-bolder">
+                                        <span>
+                                            DUMMY PRODUCT NAME</span>
+
+                                    </div>
+                                    <div class="text-center text-danger">
+
+                                        <span><i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                            <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                            <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                            <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                            <i class="bi bi-star-half" style="color: #ffb300;"></i></span>
+                                    </div>
+                                    <div class="d-flex justify-content-between bg-body-secondary p-2">
+                                        <i class="bi bi-heart"></i> |
+                                        <i class="bi bi-search"></i>|
+                                        <i class="bi bi-arrow-clockwise"></i>|<i class="bi bi-cart-plus"></i>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4" id="coline">
+                            <div class="card border-0 p-4" id="card">
+                                <div class="card-status">
+                                    <span class="badge text-bg-warning text-white">New</span>
+                                    <span class="text-danger"> $56.20</span>
+                                </div>
+                                <img src="../images/product/5.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="text-center fw-bolder">
+                                        <span>
+                                            DUMMY PRODUCT NAME</span>
+
+                                    </div>
+                                    <div class="text-center text-danger">
+
+                                        <span><i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                            <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                            <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                            <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                            <i class="bi bi-star-half" style="color: #ffb300;"></i></span>
+                                    </div>
+                                    <div class="d-flex justify-content-between bg-body-secondary p-2">
+                                        <i class="bi bi-heart"></i> |
+                                        <i class="bi bi-search"></i>|
+                                        <i class="bi bi-arrow-clockwise"></i>|<i class="bi bi-cart-plus"></i>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card border-0 p-4" id="card">
+                                <div class="card-status">
+                                    <span class="badge text-bg-warning text-white">New</span>
+                                    <span class="text-danger"> $56.20</span>
+                                </div>
+                                <img src="../images/product/6.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="text-center fw-bolder">
+                                        <span>
+                                            DUMMY PRODUCT NAME</span>
+
+                                    </div>
+                                    <div class="text-center text-danger">
+
+                                        <span><i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                            <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                            <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                            <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                            <i class="bi bi-star-half" style="color: #ffb300;"></i></span>
+                                    </div>
+                                    <div class="d-flex justify-content-between bg-body-secondary p-2">
+                                        <i class="bi bi-heart"></i> |
+                                        <i class="bi bi-search"></i>|
+                                        <i class="bi bi-arrow-clockwise"></i>|<i class="bi bi-cart-plus"></i>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card border-0 p-4" id="card">
+                                <div class="card-status">
+                                    <span class="badge text-bg-warning text-white">New</span>
+                                    <span class="text-danger"> $56.20</span>
+                                </div>
+                                <img src="../images/product/7.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="text-center fw-bolder">
+                                        <span>
+                                            DUMMY PRODUCT NAME</span>
+
+                                    </div>
+                                    <div class="text-center text-danger">
+
+                                        <span><i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                            <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                            <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                            <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                            <i class="bi bi-star-half" style="color: #ffb300;"></i></span>
+                                    </div>
+                                    <div class="d-flex justify-content-between bg-body-secondary p-2">
+                                        <i class="bi bi-heart"></i> |
+                                        <i class="bi bi-search"></i>|
+                                        <i class="bi bi-arrow-clockwise"></i>|<i class="bi bi-cart-plus"></i>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card border-0 p-4" id="card">
+                                <div class="card-status">
+                                    <span class="badge text-bg-warning text-white">New</span>
+                                    <span class="text-danger"> $56.20</span>
+                                </div>
+                                <img src="../images/product/8.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="text-center fw-bolder">
+                                        <span>
+                                            DUMMY PRODUCT NAME</span>
+
+                                    </div>
+                                    <div class="text-center text-danger">
+
+                                        <span><i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                            <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                            <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                            <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                            <i class="bi bi-star-half" style="color: #ffb300;"></i></span>
+                                    </div>
+                                    <div class="d-flex justify-content-between bg-body-secondary p-2">
+                                        <i class="bi bi-heart"></i> |
+                                        <i class="bi bi-search"></i>|
+                                        <i class="bi bi-arrow-clockwise"></i>|<i class="bi bi-cart-plus"></i>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card border-0 p-4" id="card">
+                                <div class="card-status">
+                                    <span class="badge text-bg-warning text-white">New</span>
+                                    <span class="text-danger"> $56.20</span>
+                                </div>
+                                <img src="../images/product/9.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <div class="text-center fw-bolder">
+                                        <span>
+                                            DUMMY PRODUCT NAME</span>
+
+                                    </div>
+                                    <div class="text-center text-danger">
+
+                                        <span><i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                            <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                            <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                            <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                            <i class="bi bi-star-half" style="color: #ffb300;"></i></span>
+                                    </div>
+                                    <div class="d-flex justify-content-between bg-body-secondary p-2">
+                                        <i class="bi bi-heart"></i> |
+                                        <i class="bi bi-search"></i>|
+                                        <i class="bi bi-arrow-clockwise"></i>|<i class="bi bi-cart-plus"></i>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="paginat bg-white">
+                        <div class="paginat-items text-secondary d-flex justify-content-between m-auto p-2">
+                            <i class="bi bi-arrow-left"></i>
+                            <span>01</span>
+                            <span>02</span>
+                            <span>03</span>
+                            <span>04</span>
+                            <span>05</span>
+
+                            <i class="bi bi-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="items-d d-flex flex-column gap-lg-4 d-none" id="items-d-list">
+                <div class="trie d-flex justify-content-between pt-2 px-3">
+                    <div class=" d-flex justify-content-evenly">
+                        <i class="bi bi-grid-3x2-gap-fill " id="grid-door"></i>
+                        <i class="bi bi-list-ul mx-4 text-danger" id="list-door"></i>
+
+                    </div>
+                    <span>Showing 01-09 of 17 Results</span>
+                </div>
+
+                <div class="featured w-100">
+                    <div class="row row-cols-1 row-cols-md-3 g-4 mb-4 mx-auto">
+                        <div class="card mb-3 col-lg-12 border-0 p-4">
+                            <div class="row g-0">
+                                <div class="col-md-3">
+                                    <div class="card-status w-100">
+                                        <span class="badge text-bg-warning text-white">New</span>
+                                        <span class="text-danger"> $56.20</span>
+                                    </div>
+                                    <img src="../images/product/1.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-9">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+
+                                            <h5 class="card-title">DUMMY PRODUCT NAME</h5>
+                                            <div class="text-center text-danger">
+
+                                                <span><i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                                    <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                                    <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                                    <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                                    <i class="bi bi-star-half" style="color: #ffb300;"></i> <span
+                                                        class="text-secondary">(27
+                                                        Rating)</span></span>
+                                            </div>
+                                        </div>
+                                        <span class="text-danger"> $56.20</span>
+                                        <p class="card-text mt-4">This is a wider card with supporting text below as a
+                                            natural lead-in to additional content. This content is a little bit longer.
+                                        </p>
+                                        <div class="d-flex justify-content-evenly">
+
+                                            <div class="d-flex justify-content-between bg-body-secondary p-2 w-25">
+                                                <span>-</span>
+                                                |
+                                                <span>02</span>|
+                                                <span>+</span>
+
+                                            </div>
+                                            <div class="d-flex justify-content-between bg-body-secondary p-2 w-50">
+                                                <i class="bi bi-heart"></i> |
+                                                <i class="bi bi-search"></i>|
+                                                <i class="bi bi-arrow-clockwise"></i>|<i class="bi bi-cart-plus"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3 col-lg-12 border-0 p-4">
+                            <div class="row g-0">
+                                <div class="col-md-3">
+                                    <div class="card-status w-100">
+                                        <span class="badge text-bg-warning text-white">New</span>
+                                        <span class="text-danger"> $56.20</span>
+                                    </div>
+                                    <img src="../images/product/2.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-9">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+
+                                            <h5 class="card-title">DUMMY PRODUCT NAME</h5>
+                                            <div class="text-center text-danger">
+
+                                                <span><i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                                    <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                                    <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                                    <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                                    <i class="bi bi-star-half" style="color: #ffb300;"></i> <span
+                                                        class="text-secondary">(27
+                                                        Rating)</span></span>
+                                            </div>
+                                        </div>
+                                        <span class="text-danger"> $56.20</span>
+                                        <p class="card-text mt-4">This is a wider card with supporting text below as a
+                                            natural lead-in to additional content. This content is a little bit longer.
+                                        </p>
+                                        <div class="d-flex justify-content-evenly">
+
+                                            <div class="d-flex justify-content-between bg-body-secondary p-2 w-25">
+                                                <span>-</span>
+                                                |
+                                                <span>02</span>|
+                                                <span>+</span>
+
+                                            </div>
+                                            <div class="d-flex justify-content-between bg-body-secondary p-2 w-50">
+                                                <i class="bi bi-heart"></i> |
+                                                <i class="bi bi-search"></i>|
+                                                <i class="bi bi-arrow-clockwise"></i>|<i class="bi bi-cart-plus"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3 col-lg-12 border-0 p-4">
+                            <div class="row g-0">
+                                <div class="col-md-3">
+                                    <div class="card-status w-100">
+                                        <span class="badge text-bg-warning text-white">New</span>
+                                        <span class="text-danger"> $56.20</span>
+                                    </div>
+                                    <img src="../images/product/3.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-9">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+
+                                            <h5 class="card-title">DUMMY PRODUCT NAME</h5>
+                                            <div class="text-center text-danger">
+
+                                                <span><i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                                    <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                                    <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                                    <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                                    <i class="bi bi-star-half" style="color: #ffb300;"></i> <span
+                                                        class="text-secondary">(27
+                                                        Rating)</span></span>
+                                            </div>
+                                        </div>
+                                        <span class="text-danger"> $56.20</span>
+                                        <p class="card-text mt-4">This is a wider card with supporting text below as a
+                                            natural lead-in to additional content. This content is a little bit longer.
+                                        </p>
+                                        <div class="d-flex justify-content-evenly">
+
+                                            <div class="d-flex justify-content-between bg-body-secondary p-2 w-25">
+                                                <span>-</span>
+                                                |
+                                                <span>02</span>|
+                                                <span>+</span>
+
+                                            </div>
+                                            <div class="d-flex justify-content-between bg-body-secondary p-2 w-50">
+                                                <i class="bi bi-heart"></i> |
+                                                <i class="bi bi-search"></i>|
+                                                <i class="bi bi-arrow-clockwise"></i>|<i class="bi bi-cart-plus"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3 col-lg-12 border-0 p-4">
+                            <div class="row g-0">
+                                <div class="col-md-3">
+                                    <div class="card-status w-100">
+                                        <span class="badge text-bg-warning text-white">New</span>
+                                        <span class="text-danger"> $56.20</span>
+                                    </div>
+                                    <img src="../images/product/4.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-9">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+
+                                            <h5 class="card-title">DUMMY PRODUCT NAME</h5>
+                                            <div class="text-center text-danger">
+
+                                                <span><i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                                    <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                                    <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                                    <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                                    <i class="bi bi-star-half" style="color: #ffb300;"></i> <span
+                                                        class="text-secondary">(27
+                                                        Rating)</span></span>
+                                            </div>
+                                        </div>
+                                        <span class="text-danger"> $56.20</span>
+                                        <p class="card-text mt-4">This is a wider card with supporting text below as a
+                                            natural lead-in to additional content. This content is a little bit longer.
+                                        </p>
+                                        <div class="d-flex justify-content-evenly">
+
+                                            <div class="d-flex justify-content-between bg-body-secondary p-2 w-25">
+                                                <span>-</span>
+                                                |
+                                                <span>02</span>|
+                                                <span>+</span>
+
+                                            </div>
+                                            <div class="d-flex justify-content-between bg-body-secondary p-2 w-50">
+                                                <i class="bi bi-heart"></i> |
+                                                <i class="bi bi-search"></i>|
+                                                <i class="bi bi-arrow-clockwise"></i>|<i class="bi bi-cart-plus"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3 col-lg-12 border-0 p-4">
+                            <div class="row g-0">
+                                <div class="col-md-3">
+                                    <div class="card-status w-100">
+                                        <span class="badge text-bg-warning text-white">New</span>
+                                        <span class="text-danger"> $56.20</span>
+                                    </div>
+                                    <img src="../images/product/5.jpg" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-9">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+
+                                            <h5 class="card-title">DUMMY PRODUCT NAME</h5>
+                                            <div class="text-center text-danger">
+
+                                                <span><i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                                    <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                                    <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                                    <i class="bi bi-star-fill" style="color: #ffb300;"></i>
+                                                    <i class="bi bi-star-half" style="color: #ffb300;"></i> <span
+                                                        class="text-secondary">(27
+                                                        Rating)</span></span>
+                                            </div>
+                                        </div>
+                                        <span class="text-danger"> $56.20</span>
+                                        <p class="card-text mt-4">This is a wider card with supporting text below as a
+                                            natural lead-in to additional content. This content is a little bit longer.
+                                        </p>
+                                        <div class="d-flex justify-content-evenly">
+
+                                            <div class="d-flex justify-content-between bg-body-secondary p-2 w-25">
+                                                <span>-</span>
+                                                |
+                                                <span>02</span>|
+                                                <span>+</span>
+
+                                            </div>
+                                            <div class="d-flex justify-content-between bg-body-secondary p-2 w-50">
+                                                <i class="bi bi-heart"></i> |
+                                                <i class="bi bi-search"></i>|
+                                                <i class="bi bi-arrow-clockwise"></i>|<i class="bi bi-cart-plus"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="paginat bg-white">
+                        <div class="paginat-items text-secondary d-flex justify-content-between m-auto p-2">
+                            <i class="bi bi-arrow-left"></i>
+                            <span>01</span>
+                            <span>02</span>
+                            <span>03</span>
+                            <span>04</span>
+                            <span>05</span>
+
+                            <i class="bi bi-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <script>
+        let backtop = document.getElementById('back-top');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY >= 300) {
+                backtop.style.opacity = "1";
+            } else {
+                backtop.style.opacity = "0";
+            }
+        })
+
+
+        // side menu 
+        let menu_door = document.getElementById('menu-door');
+        menu_door.addEventListener('click', () => {
+            let side_menu = document.getElementById('side-menu');
+            if (side_menu.style.marginLeft == '-400px') {
+                side_menu.style.marginLeft = "0";
+            } else {
+                side_menu.style.marginLeft = "-400px";
+            }
+        })
+
+        // product sort
+
+        let items_d_grid = document.getElementById('items-d-grid');
+        let items_d_list = document.getElementById('items-d-list');
+
+        let list_button = document.querySelectorAll('#list-door');
+        let grid_button = document.querySelectorAll('#grid-door');
+
+        list_button.forEach(element => {
+
+            element.addEventListener('click', () => {
+                items_d_grid.classList.add('d-none');
+                items_d_list.classList.remove('d-none');
+            })
+        })
+        grid_button.forEach(element => {
+
+            element.addEventListener('click', () => {
+                items_d_list.classList.add('d-none');
+                items_d_grid.classList.remove('d-none');
+            })
+        })
+    </script>
+
+    <!-- ========== End categorie ========== -->
+
+    <!-- footer  -->
+    <footer>
+        <div class="footer-infos">
+            <div class="footer-items">
+                <div class="footer-item">
+                    <div class="footer-title">
+                        <span>CONTACT US</span>
+                    </div>
+                    <div class="contact-item">
+                        <span>Address:</span>
+                        <p>28 Green Tower, Street Name,
+                            New York City, USA</p>
+                    </div>
+                    <div class="contact-item">
+                        <span>Cell-Phone:</span>
+                        <p>012345 - 123456789</p>
+                    </div>
+                    <div class="contact-item">
+                        <span>Email:</span>
+                        <p>your-email@gmail.com</p>
+                    </div>
+
+                </div>
+                <div class="footer-item">
+                    <div class="footer-title">
+                        <span>ACCOUNTS</span>
+                    </div>
+                    <a href=""><i class="bi bi-record-circle"></i> My Account</a>
+                    <a href=""><i class="bi bi-record-circle"></i> My Website</a>
+                    <a href=""><i class="bi bi-record-circle"></i> My Cart</a>
+                    <a href=""><i class="bi bi-record-circle"></i> Sing in</a>
+                    <a href=""><i class="bi bi-record-circle"></i> Check Out</a>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-title">
+                        <span>SHIPPING</span>
+                    </div>
+                    <a href=""><i class="bi bi-record-circle"></i> My Account</a>
+                    <a href=""><i class="bi bi-record-circle"></i> My Website</a>
+                    <a href=""><i class="bi bi-record-circle"></i> My Cart</a>
+                    <a href=""><i class="bi bi-record-circle"></i> Sing in</a>
+                    <a href=""><i class="bi bi-record-circle"></i> Check Out</a>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-title">
+                        <span>EMAIL NEWSLETTER</span>
+                    </div>
+                    <div class="footer-newsletter">
+
+                        <input type="text" placeholder="Email Address">
+
+
+                        <button>SUBSCRIBRE</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="footer-copyright">
+            <div class="copyright">
+                <p>© CodeCarnival 2022. All Rights Reserved.</p>
+                <div>
+                    <img src="../images/payment/1.png" alt="">
+                    <img src="../images/payment/2.png" alt="">
+                    <img src="../images/payment/3.png" alt="">
+                    <img src="../images/payment/4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="../interact.js"></script>
+
+</html>
